@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Egypt Metro** is an integrated metro system management platform designed to improve the commuting experience. The platform provides a seamless and efficient way for passengers to plan trips, track trains, and manage tickets, all while leveraging AI for crowd management and optimized routing. The project is composed of three main components: the frontend (Flutter), the backend (Django), and AI models (TensorFlow).
+The **Egypt Metro** is an integrated & comprehensive metro system management platform designed to improve & enhance the user experience for metro commuters in Egypt. The platform provides seamless and efficient features for passengers and metro admins to trip details, route planning, train schedules, crowd management, user profiles, tickets & subscriptions, chatbot support, analytics Dashboard, and more. all while leveraging AI for crowd management, optimized routing, and chatbot chatbot. The project is composed of three main components: the frontend (Flutter), the backend (Django), and AI models (TensorFlow).
 
 ## Features
 
