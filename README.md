@@ -2,7 +2,12 @@
 
 ## Overview
 
-The **Egypt Metro** is an integrated & comprehensive metro system management platform designed to improve & enhance the user experience for metro commuters in Egypt. The platform provides seamless and efficient features for passengers and metro admins to trip details, route planning, train schedules, crowd management, user profiles, tickets & subscriptions, chatbot support, analytics Dashboard, and more. all while leveraging AI for crowd management, optimized routing, and chatbot chatbot. The project is composed of three main components: the frontend (Flutter), the backend (Django), and AI models (TensorFlow).
+The **Egypt Metro** is an integrated & comprehensive metro system management platform designed to improve & enhance the user experience for metro commuters in Egypt. The platform provides seamless and efficient features for passengers and metro administrators, including trip details, route planning, train schedules, crowd management, user profiles, tickets & subscriptions, chatbot support, analytics Dashboard, and more. all while leveraging AI for crowd management, optimized routing, and chatbot chatbot. The project is composed of three main components: the frontend (Flutter), the backend (Django), and AI models (TensorFlow).
+
+This project is composed of three main components:
+- **Frontend**: Flutter (Dart)
+- **Backend**: Django (Python)
+- **AI Models**: TensorFlow or PyTorch
 
 ## Features
 
@@ -58,6 +63,9 @@ The **Egypt Metro** is an integrated & comprehensive metro system management pla
    - Supports a range of payment options for convenience.
    - Enables contactless transactions for a safer experience.
 
+9. **Admin Dashboard**
+   - Track revenue, ticket sales, and station performance in real-time.
+   - View analytics and data visualizations for decision-making.
 
 ## Technologies Used
 
@@ -94,6 +102,27 @@ The **Egypt Metro** is an integrated & comprehensive metro system management pla
  
 - **Documentation:**
   - **Notion**: Project Documentation.
+  - **Swagger** and **ReDoc**: API documentation.
+
+ ## API Endpoints
+   ### Authentication
+   - `POST /api/users/register/`: User registration.
+   - `POST /api/users/login/`: User login with JWT.
+   - `POST /api/users/token/refresh/`: Refresh JWT tokens.
+   
+   ### User Profiles
+   - `GET /api/users/profile/`: Retrieve user profile details.
+   - `PATCH /api/users/profile/update/`: Update user profile.
+   
+   ### Stations and Trips
+   - `GET /api/stations/list/`: Retrieve a list of all metro stations.
+   - `GET /api/stations/trip/<start_station_id>/<end_station_id>/`: Get trip details, including duration, stops, and cost.
+   - `GET /api/stations/nearest/`: Get the nearest metro station based on location.
+
+   ### Documentation
+   - `GET /swagger/`: Swagger UI for API documentation.
+   - `GET /redoc/`: ReDoc API documentation.
+
 
 ## Architecture
 
